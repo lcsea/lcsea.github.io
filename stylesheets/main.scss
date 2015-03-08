@@ -1,35 +1,44 @@
 @import 'normalize';
 
-$san-serif: 'Helvetica Neue', Helvetica, Arial, san-serif;
-
+$serif: Georgia, 'Times New Roman', serif;
+$blue: rgb(123, 174, 248);
 body {
-	font-size: 20px;
+	color: #222;
+	font-size: 22px;
+	font-family: $serif;
 }
 
 .nav-item {
 	display: inline-block;
-	color: #444;
 	text-decoration: none;
-	padding: 1em;
-	// margin: 1em 0.6em;
-	margin: 0 0.6em;
-	// background-color: rgb(245, 245, 245);
-	background-color: rgb(242, 242, 242);
-	border-radius: 0.25em;
+	padding: 0.8em;
+	margin: 0.6em;
+	color: darken($blue, 15%);
 }
 
 .nav-inner {
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
+	background-color: rgb(245, 245, 245);
 }
 
 .title {
+	font-family: $serif;
 	text-align: center;
-	font-size: 24px;
-	padding: 2em;
-	font-weight: bold;
+	font-size: 26px;
+	padding: 1em;
+	padding-top: 2.4em;
+	padding-bottom: 1.6em;
 }
 
 #header {
-	
+	padding-bottom: 1.6em;
+	margin-bottom: 1.6em;
+}
+
+#nav {
+}
+#announcements {
+	text-align: center;
 }
