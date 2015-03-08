@@ -1,0 +1,35 @@
+@import 'normalize';
+
+$san-serif: 'Helvetica Neue', Helvetica, Arial, san-serif;
+
+body {
+	font-size: 20px;
+}
+
+.nav-item {
+	display: inline-block;
+	color: #444;
+	text-decoration: none;
+	padding: 1em;
+	// margin: 1em 0.6em;
+	margin: 0 0.6em;
+	// background-color: rgb(245, 245, 245);
+	background-color: rgb(242, 242, 242);
+	border-radius: 0.25em;
+}
+
+.nav-inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+	padding: 2em;
+	font-weight: bold;
+}
+
+#header {
+	
+}
