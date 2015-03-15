@@ -371,11 +371,14 @@ body {
   margin: 0.6em;
   color: #3281f4; }
 
+h2 {
+  text-align: center; }
+
 .nav-inner {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  background-color: whitesmoke; }
+  background-color: #ececec; }
 
 .title {
   font-family: Georgia, "Times New Roman", serif;
