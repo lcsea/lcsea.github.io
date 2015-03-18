@@ -362,7 +362,9 @@ body {
   font-family: Georgia, "Times New Roman", serif; }
 
 .main {
-  padding: 0 1em; }
+  padding: 0 1em;
+  max-width: 50em;
+  margin: 0 auto; }
 
 .nav-item {
   display: inline-block;
@@ -370,6 +372,9 @@ body {
   padding: 0.8em;
   margin: 0.6em;
   color: #3281f4; }
+
+.lessons {
+  text-align: center; }
 
 h2 {
   text-align: center; }
